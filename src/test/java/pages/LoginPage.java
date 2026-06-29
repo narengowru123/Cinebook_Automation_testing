@@ -55,4 +55,10 @@ public class LoginPage extends BasePage {
         return this;
     }
 
+    public void login(String username, String password) {
+        enterUsername(username);
+        enterPassword(password);
+        clickLoginButton();
+    }
+
 }

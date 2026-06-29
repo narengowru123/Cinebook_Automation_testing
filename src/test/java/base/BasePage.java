@@ -42,4 +42,6 @@ public class BasePage {
     protected boolean isDisplayed(By locator) {
         return waitForVisible(locator).isDisplayed();
     }
+
+
 }
